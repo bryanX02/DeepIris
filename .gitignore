@@ -25,3 +25,32 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# ===============
+# Reglas de Python
+# ===============
+
+# Entornos virtuales
+/ML-Pipeline/.venv/
+/ML-Pipeline/venv/
+/ML-Pipeline/ENV/
+
+# Archivos compilados de Python
+**/__pycache__/
+*.pyc
+
+# Carpetas de Jupyter Notebook
+**/.ipynb_checkpoints/
+
+# Archivos de IDEs (VSCode, PyCharm)
+.vscode/
+
+# Datasets (No subir datos pesados)
+/ML-Pipeline/data/raw/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar la carpeta de builds de la documentación
+/docs/build/
