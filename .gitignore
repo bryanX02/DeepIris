@@ -31,9 +31,9 @@ replay_pid*
 # ===============
 
 # Entornos virtuales
-/ML-Pipeline/.venv/
-/ML-Pipeline/venv/
-/ML-Pipeline/ENV/
+/ml-pipeline/.venv/
+/ml-pipeline/venv/
+/ml-pipeline/ENV/
 
 # Archivos compilados de Python
 **/__pycache__/
@@ -46,7 +46,7 @@ replay_pid*
 .vscode/
 
 # Datasets (No subir datos pesados)
-/ML-Pipeline/data/raw/
+/ml-pipeline/data/raw/
 
 # Archivos de sistema operativo
 .DS_Store
